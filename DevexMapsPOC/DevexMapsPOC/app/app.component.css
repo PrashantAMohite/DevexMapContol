@@ -1,0 +1,12 @@
+﻿h1 {
+    font-size: 300%;
+    color: #34495e;
+}
+.dx-map{
+    float: left
+}
+#cordinateDetail {
+    float: right;
+    width: 300px;
+    margin-right: 240px;
+}

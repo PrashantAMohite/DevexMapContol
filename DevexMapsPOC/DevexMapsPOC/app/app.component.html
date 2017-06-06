@@ -1,0 +1,11 @@
+﻿<h1>{{name}}</h1>
+<button (click)="deleteSelectedOverlay()">Delete Polygon</button>
+<button (click)="redrawPolygon()">Redraw Polygon</button>
+<br /><br />
+<dx-map #dxmap [zoom]="11"
+        [height]="440"
+        [controls]="true"
+        width="60%"
+        (onReady)="onMapReady($event)">
+</dx-map>
+<div id="cordinateDetail"><h4>{{contentString}}</h4></div>
